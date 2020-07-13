@@ -1,0 +1,134 @@
+html{
+    background: radial-gradient(circle, #fff,#ccc);
+}
+
+#container{
+    height: 400px;
+    width : 600px;
+    background-color: aquamarine;
+    margin: 150px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px 0px;
+    position: relative;
+}
+
+#score{
+    background-color:dodgerblue;
+    color: black;
+    padding: 12px;
+    position: absolute;
+    left:530px;
+    box-shadow: 2px 2px 0px 0px;
+}
+
+#correct{
+    position: absolute;
+    left :280px;
+    background-color: lawngreen;
+    color:floralwhite;
+    padding: 12px;
+    display: none;
+}
+
+#wrong{
+    position: absolute;
+    left :280px;
+    background-color: orangered;
+    color:floralwhite;
+    padding: 12px;
+    display: none;
+}
+
+#qus{
+    width:450px;
+    height:150px;
+    margin : 50px auto 10px auto;
+    background-color:darkorange;
+    box-shadow: 0px 4px;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive,sans-serif;
+}
+
+#options{
+    width:450px;
+    height: 150px;
+    margin : 10px auto;
+}
+
+.box{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    float: left;
+    margin-right: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 4px grey;
+    text-align: center;
+    line-height: 85px;
+    font-size: 40px;
+    position: relative;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+
+.box:hover, #startreset:hover{
+    background-color: darkorange;
+    color: azure;
+}
+
+#D{
+    margin-right: 0px;
+}
+
+.box:active,#startreset:active{
+    box-shadow: 0px 0px;
+    top: 4px;
+}
+
+#startreset{
+    width: 70px;
+    padding: 10px;
+    background-color:beige;
+    margin: 0px auto;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 4px grey;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+
+#time{
+    background-color:salmon;
+    color: black;
+    padding: 12px;
+    position: absolute;
+    top:10px;
+    box-shadow: 2px 2px 0px 0px;
+    display: none;
+}
+
+#gameover{
+    height: 250px;
+    width: 500px;
+    background-color: darkcyan;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 65px;
+    z-index: 2;
+    display: none;
+}
